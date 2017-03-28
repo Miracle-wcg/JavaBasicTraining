@@ -1,4 +1,4 @@
-package MethodDemo;
+package MethodTest;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,4 +1,4 @@
-package ThreadDemo;
+package ThreadTest;
 
 /**
  * Copyright: Property of Singapore Prison Service. The contents shall not be reproduced,

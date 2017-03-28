@@ -1,4 +1,4 @@
-package ThreadDemo;
+package ThreadTest;
 
 import java.util.concurrent.*;
 
