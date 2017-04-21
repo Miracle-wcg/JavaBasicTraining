@@ -21,12 +21,15 @@ public class MethodTest {
 //        String description1 = "Residential care services for children (eg children's homes, orphanages)";
 //        System.out.println(description);
 //        System.out.println(description1);
-        DateTimeFormatter sdf = DateTimeFormatter.ofPattern("dd-MM-yyyy kk:mm a");
+        /*DateTimeFormatter sdf = DateTimeFormatter.ofPattern("dd-MM-yyyy kk:mm a");
         String str = "21-12-2016 19:54 PM";
         LocalDateTime localDate = LocalDateTime.parse(str,sdf);
         System.out.println(localDate.format(sdf));
         Date convert = Date.from(localDate.atZone(ZoneId.systemDefault()).toInstant());
-        System.out.println(convert);
+        System.out.println(convert);*/
+
+        StringBuilder stringBuilder = new StringBuilder("absac");
+        System.out.println(stringBuilder.reverse().toString());
     }
 
     public static int sumArray(int... arrs) {
