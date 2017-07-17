@@ -1,4 +1,4 @@
-package RserveString;
+package RevertTest;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -10,7 +10,7 @@ import java.util.ListIterator;
 
 /**
  * @author chengangw
- * @date 21/4/2017 3:43 PM
+ * @date 17/7/2017 6:06 PM
  */
 public class ReserveString {
     public void reserveStringFirst() {
@@ -57,7 +57,7 @@ public class ReserveString {
     public void reserveStringFour() {
         String input = "Be in present";
         char[] hello = input.toCharArray();
-        List<Character> trial1 = new LinkedList<>();
+        List<Character> trial1 = new LinkedList<Character>();
         for (char c : hello) {
             trial1.add(c);
         }
