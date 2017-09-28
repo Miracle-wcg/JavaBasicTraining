@@ -23,6 +23,16 @@
             <artifactId>mongo-java-driver</artifactId>
             <version>${mongodb.version}</version>
         </dependency>
+        <dependency>
+            <groupId>org.apache.activemq</groupId>
+            <artifactId>activemq-all</artifactId>
+            <version>5.10.0</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-lang3</artifactId>
+            <version>3.0</version>
+        </dependency>
     </dependencies>
 
 </project>
